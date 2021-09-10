@@ -12,69 +12,77 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <nav id="navbar">
-                <ul class="nav-list">
-                    <li><a href="#welcome-section">Sobre mi</a></li>
-                    <li><a href="#projects">Trabajos</a></li>
-                    <li><a href="#profile-link">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
 
+    <header class="header">
+        <nav id="navbar">
+            <div class="brand">
+                <h2><span>R</span>C</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a class="active" href="#welcome-section">Sobre mi</a></li>
+                <li><a href="#projects">Trabajos</a></li>
+                <li><a class="active" href="#profile-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
 
         <section id="welcome-section">
             <h1>
-                Hola, Soy Ramiro Charry
+                Yo soy, <span>Ramiro</span> Charry
             </h1>
             <p>
-                un desarrolador web
+                Un desarrollador organizado y con gran motivación. Cada nuevo proyecto lo arrancó con entusiasmo siempre
+                dando lo mejor de mí.
             </p>
+
         </section>
 
 
-
+        <h2 id="project-title">
+            Estos son algunos de mis proyectos:
+        </h2>
         <section id="projects">
 
-            <h2 id="project-title-h2">
-                Estos son algunos de mis proyectos
-            </h2>
+           
+            <div id="gridcontainer">
+                <div id="project-tile">
+                    <a href="https://r-charry.github.io/Tributo-maradona/" target="_blank" class="project project-tile">
+                        <img class="project-image" src="img/proyecto1.png" alt="project">
+                        <p class="project-title">
 
-            <div class="projects-grid" id="project-tile">
-                <a href="#migithub" target="_blank" class="project project-tile">
-                    <img class="project-image" src="img/proyecto1.png" alt="project">
-                    <p class="project-title">
-                        <span class="code">&lt;</span>
-                        Tribute Page
-                        <span class="code">/&gt;</span>
-                    </p>
-                </a>
-                <a href="#migithub" target="_blank" class="project project-tile">
-                    <img class="project-image" src="img/proyecto2.png" alt="project">
-                    <p class="project-title">
-                        <span class="code">&lt;</span>
-                        Random Quote Machine
-                        <span class="code">/&gt;</span>
-                    </p>
-                </a>
-                <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
-                    <img class="project-image" src="img/proyecto3.png" alt="project">
-                    <p class="project-title">
-                        <span class="code">&lt;</span>
-                        JavaScript Calculator
-                        <span class="code">/&gt;</span>
-                    </p>
-                </a>
-                <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
-                    <img class="project-image" src="img/proyecto4.png" alt="project">
-                    <p class="project-title">
-                        <span class="code">&lt;</span>
-                        Map Data Across the Globe
-                        <span class="code">/&gt;</span>
-                    </p>
-                </a>
+                            Tribute Page
 
+                        </p>
+                    </a>
+                    <a href="https://r-charry.github.io/Formulario/" target="_blank" class="project project-tile">
+                        <img class="project-image" src="img/proyecto2.png" alt="project">
+                        <p class="project-title">
+
+                            Random Quote Machine
+
+                        </p>
+                    </a>
+                    <a href="https://r-charry.github.io/Destino-de-Productos/" target="_blank"
+                        class="project project-tile">
+                        <img class="project-image" src="img/proyecto3.png" alt="project">
+                        <p class="project-title">
+
+                            JavaScript Calculator
+
+                        </p>
+                    </a>
+                    <a href="https://r-charry.github.io/Documentacion-Tecnica/" target="_blank"
+                        class="project project-tile">
+                        <img class="project-image" src="img/proyecto4.png" alt="project">
+                        <p class="project-title">
+
+                            Map Data Across the Globe
+
+                        </p>
+                    </a>
+
+                </div>
             </div>
 
         </section>
