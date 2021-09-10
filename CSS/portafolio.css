@@ -84,23 +84,53 @@ p{
   color: #fff;
 }
 
-#projects {
 
-}
 
 h2{
   color:#fff;
   text-align: center;
 }
 
-#divcontainer{
-  display: grid;
-  width: 100%;
-  height:700px;
-  grid-template-columns: 25% 25% 25% 25%;
-  
-  
-  
 
+
+.grid-item{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+  background-color: #03afff;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+
+  border:solid 1px rgba(255 255 255, 0.3);
+  box-shadow: 0 0 20px 0 rgba(204, 52, 52, 0.3) ;
+
+}
+
+.grid-item:hover{
+  filter: opacity(0.9);
+  transform: scale(1.05);
+  
+}
+.grid-container{
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows:minmax(240px, auto);
+  gap: 20px; 
+  padding:20px;
+}
+
+.grid-item img{
+    border: 1px solid rgb(000,000,000);
+    width:100%;
+    height: 100%;
+}
+
+@media (max-width:480px){
+  .grid-container{
+  
+      grid-template-columns: 1fr;
+      
 }
 
