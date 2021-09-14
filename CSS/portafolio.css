@@ -6,6 +6,7 @@
 
 body {
   background-color: #1b2046;
+  font-family: 'Rubik', sans-serif;
   
 }
 
@@ -180,7 +181,29 @@ h2{
   text-align: center;
 }
 
+.contact-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out rgb(0 0 0);
+    color:#FFF;
+}
 
-
+.btn:hover{
+  
+    background-color: #191c32;
+    transition: ease-in .4s;
+    color:aqua;
+  }
+}
  
