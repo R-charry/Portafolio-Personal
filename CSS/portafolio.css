@@ -156,11 +156,10 @@ h2{
 
 
 
-@media (max-width:480px){
+@media (max-width:580px){
   .grid-container{
   
-      grid-template-columns: 100vh;
-      
+      grid-template-columns: 1fr;
 }
 }
 
