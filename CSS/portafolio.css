@@ -63,7 +63,7 @@ list-style: none;
 #welcome-section{
   margin: 0 auto;
   width: 80vw;
-  height: 30vh;
+  height: 100vh;
   align-items: center;
   margin-top: 40px;
   
@@ -98,13 +98,21 @@ h2{
   align-items:center;
   justify-content: center;
 
-  background-color: #03afff;
+  background-color: #191c32;
   border-radius: 4px;
   transition: 0.3s ease-in-out;
 
   border:solid 1px rgba(255 255 255, 0.3);
   box-shadow: 0 0 20px 0 rgba(204, 52, 52, 0.3) ;
+  position: relative;
+  
+  
 
+}
+.grid-item a{
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .grid-item:hover{
@@ -112,19 +120,40 @@ h2{
   transform: scale(1.05);
   
 }
+
 .grid-container{
+  
   
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows:minmax(240px, auto);
+  grid-auto-rows:500px 500px;
   gap: 20px; 
   padding:20px;
+  
+  
+  
 }
 
 .grid-item img{
-    border: 1px solid rgb(000,000,000);
-    width:100%;
-    height: 100%;
+  border: 1px solid rgb(000,000,000);
+  width:100%;
+  height: 90%;
+  
+
+  
+  
+
+}
+.title-img{
+  position:absolute;
+  bottom: 0;
+  color:#FFF;
+  text-transform: uppercase;
+  grid-area: foo;
+
+}
+ 
+
 }
 
 @media (max-width:480px){
@@ -133,4 +162,26 @@ h2{
       grid-template-columns: 1fr;
       
 }
+}
 
+#profile-link {
+  background-color:#1b2046;
+  
+}
+.contact-section-header{
+  width: 100%;
+  height: auto;
+
+}
+.contact-section-header h2{
+  
+  text-align: center;
+}
+.contact-section-header p{
+  text-align: center;
+}
+
+
+
+
+ 
