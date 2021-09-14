@@ -6,7 +6,7 @@
 
 body {
   background-color: #1b2046;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 100vw;
   max-width: 100%;
   font-size: 1.8rem;
@@ -184,9 +184,11 @@ h2{
 .contact-section-header h2{
     
     text-align: center;
+    
 }
 .contact-section-header p{
    text-align: center;
+  
 }
 
 .contact-links{
@@ -256,8 +258,26 @@ display: inline-block;
       font-size: 0.8em;
       }
 
-      footer{
+      .footer{
+        flex-direction: column;
+      }
+
+      .contact-links{
         flex-direction: column;
       }
   }
 
+  @media (max-width:580px){
+    .nav-list{
+      font-size: 0.45rem;
+      text-transform:uppercase;
+    }
+      .grid-container{
+        margin-right: 0px;
+  }
+ 
+}
+
+#profile-link{
+  height: 80vh;
+}
