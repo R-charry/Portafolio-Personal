@@ -224,6 +224,24 @@ display: inline-block;
     color:aqua;
   }
 
+  .footer {
+    background-color:#1b2046;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid rgb(025, 028, 050);
+    
+    
+  }
+  .footer span{
+    color: aqua;
+    
+  }
+  .footer p {
+    text-align: center;
+  }
+ 
  
   @media (max-width:580px){
 
@@ -237,4 +255,9 @@ display: inline-block;
     .contact-links a {
       font-size: 0.8em;
       }
+
+      footer{
+        flex-direction: column;
+      }
   }
+
