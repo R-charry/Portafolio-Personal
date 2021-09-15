@@ -28,13 +28,19 @@ body {
 
 .brand {
   margin-top: -5px;
+  color:#fff;
 }
 
 .brand span{ 
+  
   color:aqua;
   
 
 }
+.brand h2{
+  color:#fff;
+}
+
 
 #navbar {
   display:flex;
@@ -69,17 +75,24 @@ list-style: none;
   color:#191c32;
 }
 
+.main{
+  width: 100vw;
+}
+
 #welcome-section{
-  margin: 0 auto;
+  margin:0 auto;
   width: 80vw;
   height: 100vh;
   align-items: center;
   margin-top: 40px;
+ 
   
 }
-.main{
-  width: 100vw;
+#projects{
+  border-top: 4px solid rgb(025, 028, 050);
+  padding-top:30px;
 }
+
 
 #welcome-section span{
   color: aqua;
@@ -135,7 +148,7 @@ h2{
   
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows:480px 480px;
+  grid-auto-rows:450px 450px;
   gap: 20px; 
   padding:20px;
   margin-right: 15px;
@@ -175,6 +188,7 @@ h2{
   height: 80vh;
   padding: 0 2rem;
   height: 80vh;
+  border-top: 4px solid rgb(025, 028, 050);
   }
   
 .contact-section-header{
@@ -266,14 +280,14 @@ display: inline-block;
       .contact-links{
         flex-direction: column;
       }
+      .nav-list{
+        font-size: 0.45rem;
+        text-transform:uppercase;
+      }
+      #welcome-section{
+        height: 55vh;
+      }
+      
   }
 
-  @media (max-width:580px){
-    .nav-list{
-      font-size: 0.45rem;
-      text-transform:uppercase;
-    }
-     
  
-}
-
