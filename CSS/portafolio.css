@@ -267,6 +267,7 @@ display: inline-block;
       .grid-container{
     
           grid-template-columns: 1fr;
+          margin-right: 0px;
     }
 
     .contact-links a {
