@@ -59,7 +59,8 @@ body {
 list-style: none;
 }
 
-.nav-list a {
+.nav-list li a {
+  
   color:#fff;
   text-decoration: none;
   padding:10px 20px;
@@ -171,7 +172,7 @@ h2{
 }
 .title-img{
   position:absolute;
-  top: 0;
+  top: 5px;
   color:#FFF;
   text-transform: uppercase;
   
@@ -280,9 +281,10 @@ display: inline-block;
         flex-direction: column;
       }
       .nav-list{
-        font-size: 0.45rem;
+        font-size: 0.5rem;
         text-transform:uppercase;
       }
+     
       #welcome-section{
         height: 55vh;
       }
